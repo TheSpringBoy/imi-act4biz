@@ -1,33 +1,20 @@
-/******************************************************************************
-START Glitch hello-app default styles
-
-The styles in this section do some minimal CSS resets, set default fonts and 
-colors, and handle the layout for our footer and "Remix on Glitch" button. If
-you're new to CSS they may seem a little complicated, but you can scroll down
-to this section's matching END comment to see page-specific styles.
-******************************************************************************/
-
-/* 
-  The style rules specify elements by type and by attributes such as class and ID
-  Each section indicates an element or elements, then lists the style properties to apply
-  See if you can cross-reference the rules in this file with the elements in index.html
-*/
-
 /* Basic page style resets */
-
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
 
-body {
+html, body {
+  height: 100%; /* Ensures both html and body take up the full height of the viewport */
+  width: 100%;  /* Ensures both html and body take up the full width of the viewport */
   background-color: #ffffff;
   overflow: hidden; /* Prevents any potential scrolling */
 }
 
 iframe {
-  width: 100%; /* Takes up the full width of its container */
-  height: 100%; /* Takes up the full height of its container */
-  border: 0; /* Removes any default borders */
+  display: block;   /* Removes any default spacing */
+  width: 100%;      /* Takes up the full width of its container */
+  height: 100%;     /* Takes up the full height of its container */
+  border: 0;        /* Removes any default borders */
 }
