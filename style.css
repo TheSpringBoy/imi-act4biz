@@ -26,16 +26,8 @@ body {
   overflow: hidden; /* Prevents any potential scrolling */
 }
 
-.wrapper {
-  height: 100vh; /* Takes up the full viewport height */
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
 iframe {
   width: 100%; /* Takes up the full width of its container */
   height: 100%; /* Takes up the full height of its container */
   border: 0; /* Removes any default borders */
-  box-shadow: 5px 5px 56px 0px rgba(0, 0, 0, 0.25);
 }
