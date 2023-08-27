@@ -89,7 +89,7 @@ html, body {
 }
 
 #iframe-section#default-view {
-    display: block; /* Initially visible */
+    display: block !important; /* Override to make it initially visible */
     margin-bottom: 20px; /* Reduce the bottom margin */
 }
 
