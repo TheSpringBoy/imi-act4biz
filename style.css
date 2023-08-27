@@ -88,6 +88,10 @@ html, body {
     border: 0;
 }
 
+#iframe-section#default-view {
+    display: block; /* Initially visible */
+}
+
 /* Footer styles */
 .footer {
     text-align: center;
