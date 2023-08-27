@@ -32,6 +32,34 @@ html, body {
 }
 
 /* Landing section styles */
+.landing {
+  text-align: center;
+  padding: 100px 0;
+}
+
+.landing-logo {
+  max-width: 200px;
+  margin-bottom: 20px;
+}
+
+.landing-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.landing-button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Form section styles */
 .iframe-section {
   text-align: center;
   padding: 50px 0;
@@ -42,14 +70,7 @@ html, body {
   width: 100%;
   height: 500px;
   border: 0;
-}
-
-#showForm {
-  background-color: #007bff;
-  color: #fff;
-  border: none;
-  padding: 10px 20px;
-  cursor: pointer;
+  display: none; /* Hide iframe initially */
 }
 
 /* Footer styles */
