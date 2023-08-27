@@ -78,7 +78,7 @@ html, body {
     display: none; /* Initially hidden */
     position: relative; /* Change from absolute to relative */
     width: 100%;
-    height: calc(100% - 60px); /* Adjust height to account for footer */
+    height: calc(100vh - 140px); /* Adjust height to account for header and footer */
     z-index: 1; /* Ensures it's above other content */
     overflow: auto; /* Allow scrolling within the iframe section if content exceeds height */
 }
