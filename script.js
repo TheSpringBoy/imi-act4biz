@@ -1,7 +1,7 @@
 document.addEventListener("DOMContentLoaded", function() {
     const iframeSections = document.querySelectorAll('.iframe-section');
     const linksAndButtons = document.querySelectorAll('[data-target]');
-    const landingButtons = document.querySelector('.landing-buttons');
+    const landingSection = document.querySelector('.landing');
     
     linksAndButtons.forEach(element => {
         element.addEventListener('click', function(e) {
@@ -10,8 +10,8 @@ document.addEventListener("DOMContentLoaded", function() {
             // Hide all iframe sections
             iframeSections.forEach(section => section.style.display = 'none');
             
-            // Hide the landing buttons
-            landingButtons.style.display = 'none';
+            // Hide the landing section
+            landingSection.style.display = 'none';
             
             // Show target iframe section
             const targetId = this.getAttribute('data-target');
