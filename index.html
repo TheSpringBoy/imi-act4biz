@@ -12,31 +12,37 @@
   <link rel="stylesheet" href="/style.css" />
 </head>
 <body>
-  <header class="header">
-    <img src="/ACT+YNET.png" alt="ACT Studio Logo" class="logo" />
-    <nav class="menu">
-      <a href="#request-form">Request New Article</a>
-      <a href="#dashboard">Visit Dashboard</a>
-    </nav>
-  </header>
-  <main>
-    <section class="landing">
-      <img src="/ACT+YNET.png" alt="ACT Studio Logo" class="landing-logo" />
-      <div class="landing-buttons">
-        <button id="showForm" class="landing-button">Request New Article</button>
-        <a href="#dashboard" class="landing-button">Visit Dashboard</a>
-      </div>
-    </section>
-    <section class="iframe-section" id="request-form">
-      <iframe src="" title="Form" id="iframeForm"></iframe>
-    </section>
-    <section class="iframe-section" id="dashboard">
-      <iframe src="" title="Dashboard" id="iframeDashboard"></iframe>
-    </section>
-  </main>
-  <footer class="footer">
-    <p>All rights reserved to ACT 2023.</p>
-  </footer>
-  <script src="/script.js"></script>
+    <header class="header">
+        <img src="/ACT+YNET.png" alt="ACT Studio Logo" class="logo" />
+        <nav class="menu">
+            <a href="#" data-target="request-form">Request New Article</a>
+            <a href="#" data-target="dashboard">Visit Dashboard</a>
+        </nav>
+    </header>
+
+    <main class="content">
+        <section class="landing">
+            <img src="/ACT+YNET.png" alt="ACT Studio Logo" class="landing-logo" />
+            <div class="landing-buttons">
+                <button id="showForm" class="landing-button">Request New Article</button>
+                <a href="#" data-target="dashboard" class="landing-button">Visit Dashboard</a>
+            </div>
+        </section>
+
+        <section class="iframe-section" id="request-form">
+            <iframe src="" title="Form" class="content-iframe"></iframe>
+        </section>
+
+        <section class="iframe-section" id="dashboard">
+            <iframe src="" title="Dashboard" class="content-iframe"></iframe>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p>All rights reserved to ACT 2023.</p>
+    </footer>
+
+    <script src="/script.js"></script>
 </body>
+
 </html>
