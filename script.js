@@ -1,9 +1,9 @@
 document.addEventListener("DOMContentLoaded", function() {
     const iframeSections = document.querySelectorAll('.iframe-section');
-    const links = document.querySelectorAll('[data-target]');
+    const linksAndButtons = document.querySelectorAll('[data-target]');
     
-    links.forEach(link => {
-        link.addEventListener('click', function(e) {
+    linksAndButtons.forEach(element => {
+        element.addEventListener('click', function(e) {
             e.preventDefault();
             
             // Hide all iframe sections
