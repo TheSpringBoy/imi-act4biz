@@ -93,5 +93,5 @@ html, body {
 .footer {
     text-align: center;
     font-size: 14px;
-    padding: 10px 0; /* Add some padding for better appearance */
+    padding: 5px 0; /* Reduced padding for a less tall footer */
 }
