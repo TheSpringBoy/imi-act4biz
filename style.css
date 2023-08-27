@@ -88,9 +88,9 @@ html, body {
     border: 0;
 }
 
-#iframe-section#default-view {
-    display: block !important; /* Override to make it initially visible */
-    margin-bottom: 20px; /* Reduce the bottom margin */
+#default-view {
+    display: block; /* Initially visible */
+    margin-bottom: 10px; /* Reduce the bottom margin for a closer fit */
 }
 
 /* Footer styles */
