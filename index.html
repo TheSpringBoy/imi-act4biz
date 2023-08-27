@@ -1,39 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <!-- 
-      This is an HTML comment
-      You can write text in a comment and the content won't be visible in the page
-    -->
-
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link
-      rel="icon"
-      href="/favicon.svg"
-    />
-
-    <!--
-      This is the page head - it contains info the browser uses
-      Like the title, which appears on the browser tab but not inside the page
-      Further down you'll see the content that displays in the page
-    -->
-    <title>ACT Studio - Ynet</title>
-    <meta property="og:title" content="ACT Studio - Ynet" />
-    <meta property="og:description" content="Ynet article creation form." />
-    <meta property="og:image" content="/ACT+YNET.png" />
-    <meta property="og:url" content="https://ynet.act4biz.com/" />
-
-    <!-- The website stylesheet -->
-    <link rel="stylesheet" href="/style.css" />
-  </head>
-
-  <body>
-    <!--
-      The body includes the content you see in the page
-      Each element is defined using tags, like this <div></div>
-      The attributes like class="wrapper" let us style elements in the CSS
-    -->
-    <iframe src="https://www.superform.spot-nik.com/form/64e631c4b0bcbd51295181bc" title="Form"></iframe>
-  </body>
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="icon" href="/favicon.svg" />
+  <title>ACT Studio - Ynet</title>
+  <meta property="og:title" content="ACT Studio - Ynet" />
+  <meta property="og:description" content="Ynet article creation form." />
+  <meta property="og:image" content="/ACT+YNET.png" />
+  <meta property="og:url" content="https://ynet.act4biz.com/" />
+  <link rel="stylesheet" href="/style.css" />
+</head>
+<body>
+  <header class="header">
+    <img src="/logo.png" alt="ACT Studio Logo" class="logo" />
+    <nav class="menu">
+      <a href="#request-form">Request New Article</a>
+      <a href="https://actnews.monday.com/boards/1253459064/views/5983866">Visit Dashboard</a>
+    </nav>
+  </header>
+  <main>
+    <section class="landing">
+      <img src="/logo.png" alt="ACT Studio Logo" class="landing-logo" />
+      <div class="landing-buttons">
+        <a href="#request-form" class="landing-button">Request New Article</a>
+        <a href="https://actnews.monday.com/boards/1253459064/views/5983866" class="landing-button">Visit Dashboard</a>
+      </div>
+    </section>
+    <section class="form-section" id="request-form">
+      <iframe src="https://www.superform.spot-nik.com/form/64e631c4b0bcbd51295181bc" title="Form"></iframe>
+    </section>
+  </main>
+  <footer>
+    <p>All rights reserved to ACT 2023.</p>
+  </footer>
+</body>
 </html>
