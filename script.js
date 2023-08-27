@@ -7,6 +7,7 @@ document.addEventListener("DOMContentLoaded", function () {
   showFormButton.addEventListener("click", function () {
     iframeForm.style.display = "block";
     iframeForm.src = "https://www.superform.spot-nik.com/form/64e631c4b0bcbd51295181bc";
+    iframeDashboard.style.display = "none"; // Hide dashboard iframe
   });
 
   menuLinks.forEach((link) => {
@@ -16,10 +17,10 @@ document.addEventListener("DOMContentLoaded", function () {
       if (target === "#dashboard") {
         iframeDashboard.style.display = "block";
         iframeDashboard.src = "https://actnews.monday.com/boards/1253459064/views/5983866";
-        iframeForm.style.display = "none";
+        iframeForm.style.display = "none"; // Hide form iframe
       } else {
-        iframeForm.style.display = "none";
-        iframeDashboard.style.display = "none";
+        iframeForm.style.display = "none"; // Hide form iframe
+        iframeDashboard.style.display = "none"; // Hide dashboard iframe
       }
       scrollToSection(target);
     });
