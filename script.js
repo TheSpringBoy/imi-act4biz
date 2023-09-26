@@ -23,7 +23,7 @@ document.addEventListener("DOMContentLoaded", function() {
                 // Show target iframe section
                 const target = document.getElementById(targetId);
                 target.style.display = 'block';
-                target.querySelector('iframe').src = '';
+                target.querySelector('iframe').src = 'https://www.superform.spot-nik.com/form/6512f825c18b89f2979687c3';
             }
         });
     });
